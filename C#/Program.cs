@@ -27,16 +27,23 @@ namespace ProvaAdmissionalCSharpApisul
 
             elevadores.periodoMaiorUtilizacaoConjuntoElevadores();
 
-            elevadores.percentualDeUsoElevadorA();
+
+
+            var pa = elevadores.percentualDeUsoElevadorA();
+            Console.WriteLine("O percentual do elevador A é de " + pa);
             
-            elevadores.percentualDeUsoElevadorB();
+            var pb = elevadores.percentualDeUsoElevadorB();
+            Console.WriteLine("O percentual do elevador B é de " + pb);
+            
+            var pc = elevadores.percentualDeUsoElevadorC();
+            Console.WriteLine("O percentual do elevador C é de " + pc);
 
-            elevadores.percentualDeUsoElevadorC();
-
-            elevadores.percentualDeUsoElevadorD();
-
-            elevadores.percentualDeUsoElevadorE();
-
+            var pd = elevadores.percentualDeUsoElevadorD();
+            Console.WriteLine("O percentual do elevador D é de " + pd);
+            
+            var pe = elevadores.percentualDeUsoElevadorE();
+            Console.WriteLine("O percentual do elevador E é de " + pe);
+            
         }
     }
 }
